@@ -20,12 +20,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 60%;
-    height: 100%;
+    width: 6vw;
+    height: 10vh;
 }
 
 .cabecalho img{
-    width: 30%;
+    width: 3vw;
     max-width: 30%;
     display: block;
 }
@@ -46,7 +46,7 @@
 }
 
 .conteudo img{
-    max-width: 100%;
+    max-width: 10vw;
     display: block;
 }
 
@@ -101,4 +101,12 @@
     display: block;
     flex-grow: 1;
     background-color: #d9d9d9;
+}
+
+@media (max-width: 1500px){
+
+        body{
+            background-color #aqua;
+        }
+    
 }
