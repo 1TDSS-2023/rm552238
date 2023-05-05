@@ -105,3 +105,17 @@ console.log(frutas);
 //     // });
 // });
 
+const imgElements = [...document.getElementsByTagName("img")]
+// for (let index = 0; index < imgElements.length; index++) {
+//     console.log(imgElements[index].alt) 
+// }
+// const imgElementsArray = [...imgElements]
+
+// imgElements.forEach((img)=>{
+//     img.setAttribute("width","10%")
+// })
+
+const elements = [...document.querySelectorAll(".teste")]
+console.log(elements);
+
+
