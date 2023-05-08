@@ -118,4 +118,11 @@ const imgElements = [...document.getElementsByTagName("img")]
 const elements = [...document.querySelectorAll(".teste")]
 console.log(elements);
 
+elements.forEach( (el)=>{
+    if(el.tagName.toLowerCase() == "img"){
+        console.log(el);
+    }    
+});
+
+
 
