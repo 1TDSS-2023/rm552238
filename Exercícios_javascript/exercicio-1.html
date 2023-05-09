@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Botões</title>
+    <style>.oculto {display: none} </style>
+    <script src="exercicio.js" defer></script>
+    
+</head>
+<body>
+    <h1>Botões</h1>
+    <p>Para mudar o background clique no botão abaixo</p>
+    <button id="altera-background" >Mudar</button>
+
+    <h2>Formulário</h2>
+    <form id="formulario">
+        <input type="text" id="palavra" placeholder="Digite uma palavra">
+        <button type="button" onclick="addpalavra()">Enviar</button>
+    </form>
+
+    <ul id="listaPalavras"></ul>
+
+    <h2>Troca de imagens</h2>
+    <img id="imagem" src="./img/imagem1.jpeg" alt="Imagem 1" width="50%">
+    <button onclick="trocarImagem()">Trocar</button>
+
+    <h2>Exibir mennsagem</h2>
+    <button onclick="exibirMensagem()">Exibir uma mensagem</button>
+    <p id="mensagem"></p>
+    
+    <h2>Ocultar elemento</h2>
+    <button onclick="ocultarElemento()">Clique para ocultar</button>
+    <p id="elemento">Este é o elemento que será ocultado.</p>
+    
+</body>
+</html>
