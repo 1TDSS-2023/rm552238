@@ -1,21 +1,22 @@
-let tmp = ""
+
+// let tmp = "";
 
 //ARROW FUNCTION
-const mudaCor = ()=>{
-    let r = Math.round(Math.random() *255)
-    let g = Math.round(Math.random() *255)
-    let b = Math.round(Math.random() *255)
+// const mudaCor = ()=>{
+    
+//     let r = Math.round(Math.random() *255);
+//     let g = Math.round(Math.random() *255);
+//     let b = Math.round(Math.random() *255);
 
-    const elCabecalho = document.querySelector(".cabecalho")
+//     const elCabecalho = document.querySelector(".cabecalho");
 
-    elCabecalho.style.backgroundColor = `rgb(${r},${g},${b})`
+//     elCabecalho.style.backgroundColor = `rgb(${r},${g},${b})`;
 
-    tmp = setTimeout(mudaCor, 1000)
+//     tmp = setTimeout(mudaCor, 1000);
+// }
 
+// mudaCor();
 
-}
-
-mudaCor();
 
 function mudaBanner() {
     
@@ -28,10 +29,13 @@ function mudaBanner() {
     nr = Math.ceil(Math.random() *3);
     img2.src = "./img/banner-lateral-"+nr+".png";
 
-    setTimeout(mudaBanner, 2000)
+    setTimeout( mudaBanner, 2000);
+
 }
 
-mudaBanner()
+mudaBanner();
+
+
 
 function luz() {
     
